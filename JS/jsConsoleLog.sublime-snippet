@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 console.log(${0:data});
-  ]]></content>
+]]></content>
     <tabTrigger>con</tabTrigger>
     <scope>source.js</scope>
     <description>console.log(.)</description>
