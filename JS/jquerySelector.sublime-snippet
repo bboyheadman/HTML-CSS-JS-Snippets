@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+\$('${0:selector}');
+]]></content>
+	<tabTrigger>jq</tabTrigger>
+	<scope>source.js</scope>
+</snippet>
