@@ -1,0 +1,6 @@
+{
+"cmd": ["C:\\Users\\shaMan\\AppData\\Local\\Programs\\Python\\Python35\\python.exe", "-u", "$file"],
+"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+"selector": "source.python",
+"encoding": "cp1251"
+}
