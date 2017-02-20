@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+@view_config(route_name='${1:route_name}', renderer='${2:json}')
+def ${1:route_name}(request):
+    return {'response': 'ok'}
+]]></content>
+	<tabTrigger>vdef</tabTrigger>
+	<scope>source.python</scope>
+</snippet>
