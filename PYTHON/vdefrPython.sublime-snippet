@@ -5,6 +5,6 @@ def ${1:route_name}(request):
     return {'response': 'ok'}
 config.add_route('${1:route_name}', '${3:path}')
 ]]></content>
-	<tabTrigger>vdef</tabTrigger>
+	<tabTrigger>vdefr</tabTrigger>
 	<scope>source.python</scope>
 </snippet>
