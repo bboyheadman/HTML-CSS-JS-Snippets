@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${1:id} res = %orig;
+%log(res);
+return res;
+]]></content>
+	<tabTrigger>log</tabTrigger>
+	<scope>source.objc</scope>
+</snippet>
