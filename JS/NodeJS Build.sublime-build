@@ -1,7 +1,0 @@
-{
-  "cmd": ["node-dev", "$file"],
-  "selector": "source.js",
-  "windows" : {
-     "shell": true
-  }
-}
