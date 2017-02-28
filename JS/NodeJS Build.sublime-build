@@ -1,4 +1,3 @@
 {
-	"shell": true,
-    "cmd": ["nodejs", "$file"]
+    "cmd": ["node", "$file"]
 }
