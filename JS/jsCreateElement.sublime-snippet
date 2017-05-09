@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+document.createElement('${0:data}');
+]]></content>
+    <tabTrigger>dce</tabTrigger>
+    <scope>source.js</scope>
+    <description>document.createElement(.)</description>
+</snippet>
