@@ -18,7 +18,7 @@ ${1:xhr}.onreadystatechange = function() {
 ${1:xhr}.send();
 ${1:xhr} = null;
 ]]></content>
-    <tabTrigger>con</tabTrigger>
+    <tabTrigger>xhr</tabTrigger>
     <scope>source.js</scope>
     <description>console.log(.)</description>
 </snippet>
