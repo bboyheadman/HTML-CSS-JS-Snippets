@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+var ${1:xhr} = new XMLHttpRequest();
+${1:xhr}.open('GET', '${0:/my/url}', true);
+
+${1:xhr}.onreadystatechange = function() {
+  if (this.readyState === 4) {
+    if (this.status >= 200 && this.status < 400) {
+      // Success!
+      var resp = this.responseText;
+      ${2:}
+    } else {
+      // Error :(
+    }
+  }
+};
+
+${1:xhr}.send();
+${1:xhr} = null;
+]]></content>
+    <tabTrigger>con</tabTrigger>
+    <scope>source.js</scope>
+    <description>console.log(.)</description>
+</snippet>
