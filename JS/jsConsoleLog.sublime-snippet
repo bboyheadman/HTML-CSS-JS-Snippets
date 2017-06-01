@@ -1,8 +1,8 @@
 <snippet>
-    <content><![CDATA[
-console.log(${0:data});
-]]></content>
+    <content>
+    	<![CDATA[console.log(${0:$TM_SELECTED_TEXT});]]>
+    </content>
     <tabTrigger>con</tabTrigger>
     <scope>source.js</scope>
-    <description>console.log(.)</description>
+    <description>console.log</description>
 </snippet>
