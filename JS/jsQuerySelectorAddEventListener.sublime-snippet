@@ -1,0 +1,12 @@
+<snippet>
+    <content>
+<![CDATA[
+querySelector('${0:#selector}').addEventListener('${1:click}', function(e) {
+	${2:// code}
+});
+]]>
+    </content>
+    <tabTrigger>qsael</tabTrigger>
+    <scope>source.js</scope>
+    <description>querySelector - addEventListener</description>
+</snippet>
