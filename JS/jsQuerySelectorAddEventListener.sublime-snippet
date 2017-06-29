@@ -1,8 +1,8 @@
 <snippet>
     <content>
 <![CDATA[
-querySelector('${0:#selector}').addEventListener('${1:click}', function(e) {
-	${2:// code}
+querySelector('#${1:selector}').addEventListener('${2:click}', function(e) {
+	${3:// code}
 });
 ]]>
     </content>
