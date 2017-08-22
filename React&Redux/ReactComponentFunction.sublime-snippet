@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+import React, { PropTypes } from 'react';
+
+const ${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName} = (props) => {
+    return (
+        ${3:<div>${2}</div>}
+    );
+}
+
+${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}.propTypes = {
+    className: PropTypes.string,
+};
+
+export default ${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName};
+]]></content>
+<tabTrigger>rcf</tabTrigger>
+</snippet>

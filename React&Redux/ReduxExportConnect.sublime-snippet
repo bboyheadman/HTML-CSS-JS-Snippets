@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+import { connect } from 'react-redux';
+
+export default connect(
+    (state) => ({${0}}),
+    (dispatch) => ({${1}}),
+)(${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName});
+]]></content>
+<tabTrigger>edc</tabTrigger>
+</snippet>
