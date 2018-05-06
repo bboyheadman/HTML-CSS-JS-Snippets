@@ -1,0 +1,7 @@
+{
+	"completions": [
+		["Hello", "Hello(${1:Hellard})"],
+		["Hello2", "Hello2(${1:Hellard})"],
+		["Hello3", "Hello3(${1:Hellard})"],
+	]
+}
