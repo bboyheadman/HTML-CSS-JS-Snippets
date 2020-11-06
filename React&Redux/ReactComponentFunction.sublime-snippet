@@ -8,7 +8,7 @@ export interface ${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}Props {
 };
 
 
-export const ${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}: React.FC<${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}Props> = (props: any) => {
+export const ${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}: React.FC<${TM_FILENAME/(.+)\..+|.*/$1/:ComponentName}Props> = (props) => {
   return (
     ${1}
   );
