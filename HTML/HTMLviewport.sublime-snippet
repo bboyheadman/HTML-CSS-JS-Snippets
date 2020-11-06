@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<meta name="viewport" content="user-scalable=no, width=device-width">
+<meta name="viewport" content="user-scalable=no, width=device-width" />
 ]]></content>
 	<tabTrigger>viewport</tabTrigger>
 	<scope>text.html</scope>
